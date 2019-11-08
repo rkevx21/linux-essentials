@@ -22,6 +22,9 @@
 -	GPL (Copyleft)
 
 ### Lecture: The Free Software Foundation (FSF) and Open Source Initiative (OSI)
--	Two movements that place approvals on open-source licenes.
-	-	**FOSS** : Free and Open Source Software
-	-	**FLOSS** : Free/Libre/Open Source Software
+
+Two movements that place approvals on open-source licenes.
+
+**FOSS** : Free and Open Source Software
+
+**FLOSS** : Free/Libre/Open Source Software
