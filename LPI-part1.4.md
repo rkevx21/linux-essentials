@@ -17,7 +17,7 @@ Using the Linux Desktop, config, options, web usage, and privacy
 - KDE
 
 ### Lecture: Getting to the Command Line
-	`ssh USER@REMOTE_IP`
+`ssh USER@REMOTE_IP`
 
 ### Lecture: Industry Uses of Linux, Cloud Computing, and Virtualization
 
