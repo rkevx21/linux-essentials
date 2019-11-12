@@ -38,7 +38,7 @@ Used to disable special treatment of certain characters and words, as well as to
 
 - **Escape Character**
 
-A non qouted backslash " \ " is the bash escape character and preserves the literal value of the next folowing character with the single exception of newline
+A non qouted backslash `\` is the bash escape character and preserves the literal value of the next folowing character with the single exception of newline
 
 `var1=Some value` - this will show error
 
@@ -55,7 +55,7 @@ Single qoutes **'** preserve the literal value of every character contained with
 
 - **Double Qoutes**
 
-Double qoutes **""** preserve the literal value of most characters contained within the qoutes, exceptions include **$** for variables, ** ' ** for single qouting, ** \ ** for escaping a character
+Double qoutes `""` preserve the literal value of most characters contained within the qoutes, exceptions include `$` for variables, `'` for single qouting, `\` for escaping a character
 
 `echo ''This is a 'qoute''` - will output `This is a qoute`
 
@@ -98,32 +98,32 @@ Double qoutes **""** preserve the literal value of most characters contained wit
 2. We should now be able to run the script without specifying the path to it.
 
 *Make the New `$PATH` Persist*
-1. If we log out, we'll lose our ability to run the script without specifiying the path. So we need to make our change permanent. We can do so on this Ubuntu 16.04 system by modifying the ~/.profile file.
+1. If we log out, we'll lose our ability to run the script without specifiying the path. So we need to make our change permanent. We can do so on this Ubuntu 16.04 system by modifying the `~/.profile` file.
 		`echo 'PATH="$PATH:$HOME/scripts"' >> ~/.profile`
 
 
-### Hands-On Lab: Command Line Quoting
+### Command Line Quoting
 
 *Set `variable1`*
-1. Set variable1 to This is 'just' a "test".
-		`variable1="This is 'just' a \"test\""`
+1. Set variable1 to **This is 'just' a "test".**
+		`variable1="This is 'just' a \"test\"".`
 2. Write the variable to a new file named value.txt.
 		`echo -e $variable1 > value.txt`
 
 *Set `variable2`*
-1. Set variable2 to This is a backslash "\" and this is a single quote '.
+1. Set variable2 to **This is a backslash "\" and this is a single quote .'**
 		`variable2="This is a backslash \"\\\" and this is a single quote '."`
 2. Append variable2 to the value.txt file.
 		`echo -e $variable2 >> value.txt`
 
 *Set `variable3`*
-1. Set variable3 to 3 double quotes """, and 3 single quotes ''', and three backslashes \\\.
+1. Set variable3 to **3 double quotes """, and 3 single quotes ''', and three backslashes \\\.**
 		`variable3="3 double quotes \"\"\", and 3 single quotes ''', and 3 backslashes \\\\\\\\\."`
 2. Append variable3 to the value.txt file.
 		`echo -e $variable3 >> value.txt`
 
 *Set `variable4`*
-1. Set variable4 to This is what a newline character looks like \n, it will create a new line.
+1. Set variable4 to **This is what a newline character looks like \n, it will create a new line.**
 		`variable4="This is what a newline character looks like \\\n, it will create a new line."`
 2. Append variable4 to the value.txt file.
 		`echo -e $variable4 >> value.txt`
