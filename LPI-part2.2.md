@@ -30,7 +30,7 @@ Provides more detailed information about a command than its respective page, pag
 1. The documentation found in the man and info pages suggests that the -l option may be used to determine the total number of lines.
 		`wc -l longfile.txt`
 2. Run the command and output the result into a new file named value.txt.
-		wc -l longfile.txt > value.txt
+		`wc -l longfile.txt > value.txt`
 
 *Determine the Number of Characters on the Longest Line*
 1. The documentation found in the man and info pages suggests that the -L option may be used to determine the number of characters on the longest line.
