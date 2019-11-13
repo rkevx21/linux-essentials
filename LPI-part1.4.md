@@ -35,7 +35,7 @@ Virtualization and Cloud Computing have changed shaped of modern computer worklo
 ## Hands-On Lab
 
 ### Determining Which Distribution Is Running on a Host
-		
+
 *View the Release Files*
 1. We can view the release files by using globbing to pick up every file that contains the word "release" in the /etc/ directory.
 		`cat /etc/*release*`
