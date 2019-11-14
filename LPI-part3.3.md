@@ -38,7 +38,7 @@ Cli applicatop for working with text files
 ### Turning Commands Into a Bash Script
 
 
-*Determine What Options Should Be Used with the `ssh` Command*
+*Determine What Options Should Be Used with the **ssh** Command*
 1. View the man page for the ssh command, and determine the option to use to disable host key checking.
 		`man ssh`
 2. The syntax to use is:
@@ -68,7 +68,7 @@ Execute and Verify the Script
 		`./bin/lab.sh 10.0.1.10`
 3. It should immediately prompt for cloud_user's password and not prompt for RSA fingerprint acceptance.
 
-Add the New `bin` Directory to the `PATH` Variable
+Add the New **bin** Directory to the **PATH** Variable
 1. Append to the .bashrc file in cloud_user's home directory to add the new bin folder to the PATH environment variable.
 		`echo 'PATH="$HOME/bin:$HOME/.local/bin:$PATH"' >> .bashrc`
 2. Source .bashrc to pick up the change.
