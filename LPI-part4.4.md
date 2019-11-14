@@ -92,28 +92,28 @@ Note the DNS server in the output.
 		
 *Determine the Configured DNS Host*
 
-		`cat /etc/resolv.conf`
+`cat /etc/resolv.conf`
 
 *Perform a DNS Lookup of www.linuxacademy.com Using the Configured DNS Server*
 
-		`host www.linuxacademy.com`
+`host www.linuxacademy.com`
 
-		`dig www.linuxacademy.com`
+`dig www.linuxacademy.com`
 
 *Perform a DNS Lookup of www.linuxacademy.com Using Another DNS Host*
 
-		`dig @1.1.1.1 www.linuxacademy.com`
+`dig @1.1.1.1 www.linuxacademy.com`
 
 We could also use:
 
-		`host www.linuxacademy.com 1.1.1.1`
+`host www.linuxacademy.com 1.1.1.1`
 
 *Test Connectivity to www.linuxacademy.com*
 
 Try ping:
 
-		`ping -c1 www.linuxacademy.com`
+`ping -c1 www.linuxacademy.com`
 
 Then curl:
 
-		`curl -I www.linuxacademy.com`
+`curl -I www.linuxacademy.com`
