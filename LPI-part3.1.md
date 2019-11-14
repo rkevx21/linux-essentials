@@ -43,7 +43,7 @@ Is the process of reducing the amount of storage that files or archives consume.
 1. Use the following command to create a tarball of the ~/Practice folder named archive.tar:
 		`tar cvf archive.tar Practice/`
 
-*Add the File `~/extra.txt` to `archive.tar`*
+*Add the File **~/extra.txt** to **archive.tar***
 1. Use the following command to add the file ~/extra.txt to the existing tarball:
 		`tar rf archive.tar extra.txt`
 
@@ -56,7 +56,7 @@ Is the process of reducing the amount of storage that files or archives consume.
 		`gzip -9 archive.tar`
 2. This will compress the file and rename it archive.tar.gz.
 
-*Extract the File `Practice/Test/version.txt` from `archive.tar.gz`*
+*Extract the File **Practice/Test/version.txt** from **archive.tar.gz***
 1. Use the following command to extract the file Practice/Test/version.txt from the compressed archive archive.tar.gz:
 		`tar xzf archive.tar.gz Practice/Test/version.txt`
 2. This will extract the file to the existing path and overwrite the file if it exists.
