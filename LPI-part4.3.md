@@ -132,18 +132,18 @@ Syslog is a service performs log message collection
 
 `top`
 
-*Determine How Many Processes Are Running as `cloud_user`*
+*Determine How Many Processes Are Running as **cloud_user***
 1. Run one of the following commands:
 
 `ps -u cloud_user | wc -l`
 
 `ps aux | grep -v grep | grep -E "^cloud" | wc -l`
 
-*Determine the PID of the `xfce4-session` Process*
+*Determine the PID of the **xfce4-session** Process*
 1. Run the following command:
 		`ps aux | grep xfce4-session | grep -v grep`
 
-*Determine How Many Threads the `xfce4-session` Process Is Using*
+*Determine How Many Threads the **xfce4-session** Process Is Using*
 1. Determine the PID:
 		`ps aux | grep xfce4-session | grep -v grep`
 2. View the current threads reported in the PID's status:
@@ -164,7 +164,7 @@ Syslog is a service performs log message collection
 ### Viewing System Logs
 
 
-*Attempt to `curl` the Address on the Local Host*
+*Attempt to **curl** the Address on the Local Host*
 1. Run the following command:
 		`curl -I localhost`
 
@@ -172,7 +172,7 @@ Syslog is a service performs log message collection
 1. Run the following command:
 		`sudo cat /var/log/httpd/access_log | grep -E "^10.0.1.10" | wc -l`
 
-*Attempt to Reach the Web Server via `http://PUBLIC_IP/index.html`*
+*Attempt to Reach the Web Server via http://PUBLIC_IP/index.html*
 1. Run the following command:
 		`sudo tail -f /var/log/httpd/access_log`
 2. Attempt to reach the website via public IP (not 10.0.1.10) from your computer as http://PUBLIC_IP/index.html.
@@ -183,7 +183,7 @@ Syslog is a service performs log message collection
 
 Note the "200" after "HTTP/1.1"; this signifies a valid destination.
 
-*Attempt to Reach the Web Server via `http://PUBLIC_IP/server.html`*
+*Attempt to Reach the Web Server via http://PUBLIC_IP/server.html*
 1. While running tail on the access log, attempt to reach the /server/html path.
 		`curl http://PUBLIC_IP/server.html`
 		
