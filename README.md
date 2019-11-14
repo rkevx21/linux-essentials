@@ -2,7 +2,7 @@
 
 ## Topic 1: The Linux Community and a Career in Open Source
 
-### 1.1 [Linux Evolution and Popular Operating Systems](../blob/master/docs/LPI-part.1.2.md)
+### 1.1 [Linux Evolution and Popular Operating Systems](../blob/master/docs/LPI-part.1.1.md)
 ### 1.2 [Major Open-Source Applications](docs/LPI-part.1.2.md)
 ### 1.3 [Open-Source Software and Licensing](docs/LPI-part.1.3.md)
 ### 1.4 [ICT Skills and Working in Linux](docs/LPI-part.1.4.md)
