@@ -65,9 +65,12 @@ In group, the 1st in the list , will be the initial group use when creating a fi
 
 *Create the Required Groups*
 1. Run the following commands:
-		`sudo groupadd management`
-		`sudo groupadd sales`
-		`sudo groupadd operations`
+
+`sudo groupadd management`
+
+`sudo groupadd sales`
+
+`sudo groupadd operations`
 
 *Add Members to the Appropriate Groups*
 1. Add jen to all groups.
