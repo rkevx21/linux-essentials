@@ -148,17 +148,13 @@ Syslog is a service performs log message collection
 1. Create a new file named /home/cloud_user/bin/threads.sh, and add the following script:
 
 
-		`#!/bin/bash`
+		#!/bin/bash
 
-		`if [ -n $1 ]`
-
-			`then`
-
-			`_pid=$(ps aux | grep -E "$1\$" | grep -v grep | grep -v threads.sh | awk '{print $2}')`
-
-			`cat /proc/$_pid/status | grep Threads`
-
-		`fi`
+		if [ -n $1 ]
+			then
+			_pid=$(ps aux | grep -E "$1\$" | grep -v grep | grep -v threads.sh | awk '{print $2}')
+			cat /proc/$_pid/status | grep Threads
+		fi
 
 ### Viewing System Logs
 
@@ -179,9 +175,11 @@ Syslog is a service performs log message collection
 *Find the New Entry in the Log*
 1. Run the following command to view the entry that was appended to the end of the log:
 		`sudo tail -f /var/log/httpd/access_log`
+
 Note the "200" after "HTTP/1.1"; this signifies a valid destination.
 
 *Attempt to Reach the Web Server via `http://PUBLIC_IP/server.html`*
 1. While running tail on the access log, attempt to reach the /server/html path.
 		`curl http://PUBLIC_IP/server.html`
+		
 Note the 404 status code; this signifies the path did not resolve to a valid page.
