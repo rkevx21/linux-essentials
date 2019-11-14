@@ -57,9 +57,10 @@ Cli applicatop for working with text files
 		`ssh -o StrictHostKeyChecking=no $login_user@$1`
 
 6. The completed script should look like this:
-		`#!/bin/bash`
-		`login_user=cloud_user`
-		`ssh -o StrictHostKeyChecking=no $login_user@$1`
+
+		#!/bin/bash
+		login_user=cloud_user
+		ssh -o StrictHostKeyChecking=no $login_user@$1
 
 Execute and Verify the Script
 1. Save the file, and make it executable.
