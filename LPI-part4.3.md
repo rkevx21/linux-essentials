@@ -125,14 +125,19 @@ Syslog is a service performs log message collection
 
 *Determine the Current System Load*
 1. Run one of the following commands:
-		`uptime`
-		`cat /proc/loadavg`
-		`top`
+
+`uptime`
+
+`cat /proc/loadavg`
+
+`top`
 
 *Determine How Many Processes Are Running as `cloud_user`*
 1. Run one of the following commands:
-		`ps -u cloud_user | wc -l`
-		`ps aux | grep -v grep | grep -E "^cloud" | wc -l`
+
+`ps -u cloud_user | wc -l`
+
+`ps aux | grep -v grep | grep -E "^cloud" | wc -l`
 
 *Determine the PID of the `xfce4-session` Process*
 1. Run the following command:
