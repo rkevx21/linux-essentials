@@ -5,12 +5,12 @@
 ### Lecture: Differences between Windows, OS X, and Linux
 
 
-							Linux		macOS		  Windows
-	Open Source		     Yes	      No		     No
-	Purchase Price		  Free		 Free		   Varies
-	Supported Hardware	  Excellent	Proprietery	Good
-	Shell Interpreter	   Bash		 Bash		   PowerShell
-	GUI					 Multiple	 macOS		  Windows
+				Linux		macOS	        Windows
+	Open Source	        Yes	        No              No
+	Purchase Price		Free		Free	        Varies
+	Supported Hardware	Excellent	Proprietery	Good
+	Shell Interpreter	Bash		Bash	        PowerShell
+	GUI		        Multiple	macOS		Windows
 
 ### Lecture: Distribution Lifecycle Management
 
