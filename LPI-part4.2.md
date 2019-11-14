@@ -53,20 +53,28 @@ Reside in the running kernel (or are loaded as a module) and enable the operatin
 
 *Determine the Number of CPUs/Cores*
 1. Run any of the following commands:
-		`sudo lshw`
-		`cat /proc/cpuinfo`
-		`lscpu`
+
+`sudo lshw`
+
+`cat /proc/cpuinfo`
+
+`lscpu`
 
 *Determine the CPU Speed*
 1. Run one of the following commands:
-		`sudo lshw`
-		`cat /proc/cpuinfo`
+
+`sudo lshw`
+
+`cat /proc/cpuinfo`
 
 *Determine How Much RAM Is Installed*
 1. Run any of the following commands:
-		`sudo lshw`
-		`cat /proc/meminfo`
-		`sudo dmidecode`
+
+`sudo lshw`
+
+`cat /proc/meminfo`
+
+`sudo dmidecode`
 
 *Determine How Much Swap Is Being Used*
 1. Run the following command:
@@ -74,5 +82,7 @@ Reside in the running kernel (or are loaded as a module) and enable the operatin
 
 *Determine the BIOS Version*
 1. Run one of the following commands:
-		`sudo lshw`
-		`sudo dmidecode`
+
+`sudo lshw`
+
+`sudo dmidecode`
