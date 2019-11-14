@@ -51,16 +51,23 @@ check PID of apache under port 80
 
 *Determine What Groups sysuser Belongs To*
 1. Run one of the following commands:
-		`id sysuser`
-		`groups sysuser`
-		`cat /etc/group | grep sysuser`
+
+`id sysuser`
+
+`groups sysuser`
+
+`cat /etc/group | grep sysuser`
 
 *Determine sysuser’s Home Directory*
 1. Run one of the following commands:
-		`getent passwd sysuser`
-		`cat /etc/passwd | grep sysuser`
+
+`getent passwd sysuser`
+
+`cat /etc/passwd | grep sysuser`
 
 *Determine sysuser’s Login Shell*
 1. Run one of the following commands:
-		`getent passwd sysuser`
-		`cat /etc/passwd | grep sysuser`
+
+`getent passwd sysuser`
+
+`cat /etc/passwd | grep sysuser`
