@@ -4,8 +4,8 @@
 
 ### File and Directory Permissions and Ownership
 
-	7		5		5
-	rwx		r-x		r-x
+	7	5	5
+	rwx	r-x	r-x
 	user    group   everyone
 
 **Numberic Permission**
@@ -48,9 +48,12 @@ Directories requires execute permissions in order to be entered by the user, gro
 
 *Create Accounts for Nancy, Greg, and Jeremy*
 1. Run the following commands:
-		`sudo useradd -m nancy`
-		`sudo useradd -m greg`
-		`sudo useradd -m jeremy`
+
+`sudo useradd -m nancy`
+
+`sudo useradd -m greg`
+
+`sudo useradd -m jeremy`
 
 *Remove Bill as a User and Transfer Ownership of his Home Directory*
 1. Remove the user bill.
