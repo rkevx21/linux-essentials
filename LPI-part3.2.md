@@ -31,17 +31,23 @@ Use to feed input to a command line from a file, or to send the ouput of a file
 
 ### Command Piping and Redirection
 
-*Determine the Number of Files and Folders in `/usr/share`*
+*Determine the Number of Files and Folders in **/usr/share***
 1. Run the following commands:
-		`ls /usr/share/ | wc -l`
-		`ls /usr/share/ | wc -l > ~/value.txt`
 
-*Determine the Number of Unpacked Entries in `/var/log/dpkg.log`*
-1. Run the following commands:
-		`cat /var/log/dpkg.log | grep unpacked | wc -l`
-		`cat /var/log/dpkg.log | grep unpacked | wc -l >> ~/value.txt`
+`ls /usr/share/ | wc -l`
 
-*Determine the Total Number of Entries in `/var/log/dpkg.log`*
+`ls /usr/share/ | wc -l > ~/value.txt`
+
+*Determine the Number of Unpacked Entries in **/var/log/dpkg.log***
 1. Run the following commands:
-		`cat /var/log/dpkg.log | wc -l`
-		`cat /var/log/dpkg.log | wc -l >> ~/value.txt`
+
+`cat /var/log/dpkg.log | grep unpacked | wc -l`
+
+`cat /var/log/dpkg.log | grep unpacked | wc -l >> ~/value.txt`
+
+*Determine the Total Number of Entries in **/var/log/dpkg.log***
+1. Run the following commands:
+
+`cat /var/log/dpkg.log | wc -l`
+
+`cat /var/log/dpkg.log | wc -l >> ~/value.txt`
