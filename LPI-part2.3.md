@@ -41,12 +41,12 @@ The path to the uniques location of a file or a directory
 1. To list the directory and sort by file size, we use -l ("long listing") and -S ("sort by file size").
 		`ls -lS ~/Practice/Test/var/log/`
 
-*Determine When the File `~/Practice/Test/sos_commands/networking/netstat_-W_-neopa` Was Last Modified*
+*Determine When the File **~/Practice/Test/sos_commands/networking/netstat_-W_-neopa** Was Last Modified*
 
 1. We use a simple -l for "long listing" to view the last modified time and date.
 		`ls -l ~/Practice/Test/sos_commands/networking/netstat_-W_-neopa`
 
-Determine When the File `~/Practice/Test/sos_commands/networking/netstat_-W_-neopa` Was Last Accessed
+*Determine When the File **~/Practice/Test/sos_commands/networking/netstat_-W_-neopa** Was Last Accessed*
 
 1. To view access times, we use -l  ("long listing") and-u (access time).
 		`ls -lu ~/Practice/Test/sos_commands/networking/netstat_-W_-neopa`
