@@ -39,7 +39,7 @@ The purpose of having discrete users is to separate functional priviledges from 
 		
 `ss -nltp`
 
-check PID of apache under port 80
+- Check PID of apache under port 80
 
 `ps aux | grep [PID]`
 
